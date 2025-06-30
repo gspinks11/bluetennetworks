@@ -1,0 +1,36 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-dekalbfrontendv3-dev-2d584-authRole",
+      "UnauthRoleArn": "arn:aws:iam::004266232336:role/amplify-dekalbfrontendv3-dev-2d584-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::004266232336:role/amplify-dekalbfrontendv3-dev-2d584-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-dekalbfrontendv3-dev-2d584-deployment",
+      "UnauthRoleName": "amplify-dekalbfrontendv3-dev-2d584-unauthRole",
+      "StackName": "amplify-dekalbfrontendv3-dev-2d584",
+      "StackId": "arn:aws:cloudformation:us-east-1:004266232336:stack/amplify-dekalbfrontendv3-dev-2d584/31d1efe0-55bc-11f0-8ca2-12d75b4d988f",
+      "AmplifyAppId": "dor4p9dxzwp9h",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-dekalbfrontendv3-dev-2d584-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "auth": {
+        "dekalbfrontendv367ce325d": {}
+      },
+      "function": {
+        "dekalbfrontendv3d6960c9a": {
+          "deploymentBucketName": "amplify-dekalbfrontendv3-dev-2d584-deployment",
+          "s3Key": "amplify-builds/dekalbfrontendv3d6960c9a-4669783842656a74546d-build.zip"
+        }
+      },
+      "api": {
+        "CaseSenseAPI": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "dor4p9dxzwp9h",
+          "type": "manual"
+        }
+      }
+    }
+  }
+}

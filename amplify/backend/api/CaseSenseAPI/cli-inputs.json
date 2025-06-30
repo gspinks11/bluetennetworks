@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "paths": {
+    "/cases": {
+      "name": "/cases",
+      "lambdaFunction": "dekalbfrontendv3d6960c9a",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create"
+        ]
+      }
+    }
+  }
+}
