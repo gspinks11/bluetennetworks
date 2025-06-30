@@ -4,6 +4,9 @@ import { Authenticator } from '@aws-amplify/ui-react';
 import '@aws-amplify/ui-react/styles.css'; // Don't forget to import the styles!
 import './App.css'; // Keep your existing App.css import
 
+import awsExports from './aws-exports';
+console.log('AWS Amplify config:', awsExports);
+
 // --- CORRECTED AMPLIFY IMPORTS FOR v5.x.x ---
 // In v5, Amplify, Auth, and API are directly exported from the top-level 'aws-amplify' package
 //import { Amplify } from 'aws-amplify';
