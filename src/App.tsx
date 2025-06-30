@@ -1,17 +1,16 @@
 // src/App.tsx
-import React, { useState } from 'react'; // Keep useState for search
+import { Amplify } from 'aws-amplify';
+import awsExports from './aws-exports';
+Amplify.configure(awsExports);
+
+import React, { useState } from 'react';
 import { Authenticator } from '@aws-amplify/ui-react';
 import '@aws-amplify/ui-react/styles.css'; // Don't forget to import the styles!
 import './App.css'; // Keep your existing App.css import
 
-import awsExports from './aws-exports';
-console.log('AWS Amplify config:', awsExports);
-
-// --- CORRECTED AMPLIFY IMPORTS FOR v5.x.x ---
-// In v5, Amplify, Auth, and API are directly exported from the top-level 'aws-amplify' package
-//import { Amplify } from 'aws-amplify';
-import {fetchAuthSession } from 'aws-amplify/auth';
+import { fetchAuthSession } from 'aws-amplify/auth';
 import { get } from 'aws-amplify/api';
+
 // --- END: CORRECTED AMPLIFY IMPORTS FOR v5.x.x ---
 
 // REMOVED: All custom authentication state (username, password, step, etc.)
